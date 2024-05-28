@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background: rgba(40, 40, 41, 1);    
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav>ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+    transition: all 0.2s;
+}
+
+ul>li>a:hover {
+    color: rgb(173, 173, 173);
+    transition: all 0.2s;
+}
+
+
+.MateDesigners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    margin-top: 114px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 88px;
+}
+
+.MateDesigners2 {
+    margin-left: 500px;
+    margin-right: 300px;
+    font-size: 88px;
+}
+
+
+.section1 {
+    margin-top: 114px;
+    width: 393px;
+    height: 136px;
+}
+
+.UXW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.text1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(106, 106, 106);
+    font-family: Inter;
+    padding-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.section2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.footer {
+    margin-top: 302px;
+}
